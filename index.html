@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="BookNest - Premium Online Book Store featuring 15-min express delivery, curated bestsellers, author spotlights, and reader reviews.">
+    <title>BookNest - Modern Online Book Store</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <span class="logo-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" />
+                        </svg>
+                    </span>
+                    <h1>BookNest</h1>
+                </a>
+            </div>
+            <nav aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#featured">Books</a></li>
+                    <li><a href="#authors">Authors</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3z" />
+                        </svg>
+                        Curated Bestsellers & Express Delivery 2026
+                    </span>
+                    <h2>Discover Books That Ignite Your Curiosity</h2>
+                    <p>Explore handpicked masterpieces across science, fiction, psychology, and history. Delivered
+                        directly to your doorstep in express time.</p>
+                    <div class="hero-actions">
+                        <a href="#featured" class="btn">Browse Collection</a>
+                        <a href="#categories" class="btn btn-secondary">Explore Categories</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us (Trust Pillars) -->
+        <section class="why-choose-us">
+            <div class="container">
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                            </svg>
+                        </div>
+                        <h3>15-Min Express Delivery</h3>
+                        <p>Get your favorite paperbacks delivered to your doorstep in record quick-commerce speed.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h3>100% Genuine Editions</h3>
+                        <p>Guaranteed authentic publisher prints with crisp typography and durable bindings.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                            </svg>
+                        </div>
+                        <h3>Unbeatable Prices</h3>
+                        <p>Enjoy up to 30% off list prices on bestsellers with transparent quick-checkout pricing.</p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <div class="pillar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                                <path d="M3 3v5h5" />
+                                <path d="M12 7v5l4 2" />
+                            </svg>
+                        </div>
+                        <h3>7-Day Easy Returns</h3>
+                        <p>No-questions-asked instant exchange policy if your book arrives damaged.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Categories Section -->
+        <section class="categories" id="categories">
+            <div class="container">
+                <div class="section-header">
+                    <span class="kicker">GENRE CATALOG</span>
+                    <h2>Browse Book Categories</h2>
+                    <p>Select a category to filter our library in real time</p>
+                </div>
+
+                <!-- Hidden Radio Filter System for Pure CSS Filtering -->
+                <input type="radio" name="cat-filter" id="cat-all" class="cat-radio-input" checked>
+                <input type="radio" name="cat-filter" id="cat-fiction" class="cat-radio-input">
+                <input type="radio" name="cat-filter" id="cat-non-fiction" class="cat-radio-input">
+                <input type="radio" name="cat-filter" id="cat-mystery" class="cat-radio-input">
+                <input type="radio" name="cat-filter" id="cat-science" class="cat-radio-input">
+                <input type="radio" name="cat-filter" id="cat-history" class="cat-radio-input">
+                <input type="radio" name="cat-filter" id="cat-biography" class="cat-radio-input">
+
+                <div class="category-list">
+                    <label for="cat-all" class="category-card cat-card-all">
+                        <div class="category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="m16 6 4 14" />
+                                <path d="M12 6v14" />
+                                <path d="M8 8v12" />
+                                <path d="M4 4v16" />
+                            </svg>
+                        </div>
+                        <h3>All Genres</h3>
+                        <p class="category-count">12 Books</p>
+                    </label>
+
+                    <label for="cat-fiction" class="category-card cat-card-fiction">
+                        <div class="category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                            </svg>
+                        </div>
+                        <h3>Fiction</h3>
+                        <p class="category-count">3 Books</p>
+                    </label>
+
+                    <label for="cat-non-fiction" class="category-card cat-card-non-fiction">
+                        <div class="category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+                                <path d="M9 18h6" />
+                                <path d="M10 22h4" />
+                            </svg>
+                        </div>
+                        <h3>Non-Fiction</h3>
+                        <p class="category-count">2 Books</p>
+                    </label>
+
+                    <label for="cat-mystery" class="category-card cat-card-mystery">
+                        <div class="category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8" />
+                                <path d="m21 21-4.3-4.3" />
+                            </svg>
+                        </div>
+                        <h3>Mystery</h3>
+                        <p class="category-count">2 Books</p>
+                    </label>
+
+                    <label for="cat-science" class="category-card cat-card-science">
+                        <div class="category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M10 2v7.31L4.75 20.29A2 2 0 0 0 6.54 23h10.92a2 2 0 0 0 1.79-2.71L14 9.31V2" />
+                                <path d="M8.5 2h7" />
+                                <path d="M7 16h10" />
+                            </svg>
+                        </div>
+                        <h3>Science</h3>
+                        <p class="category-count">2 Books</p>
+                    </label>
+
+                    <label for="cat-history" class="category-card cat-card-history">
+                        <div class="category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                                <path d="M3 3v5h5" />
+                                <path d="M12 7v5l4 2" />
+                            </svg>
+                        </div>
+                        <h3>History</h3>
+                        <p class="category-count">2 Books</p>
+                    </label>
+
+                    <label for="cat-biography" class="category-card cat-card-biography">
+                        <div class="category-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                                <circle cx="12" cy="7" r="4" />
+                            </svg>
+                        </div>
+                        <h3>Biography</h3>
+                        <p class="category-count">2 Books</p>
+                    </label>
+                </div>
+
+                <!-- Filtered Books Grid -->
+                <div class="book-grid" id="featured">
+                    <!-- Book Card 1 -->
+                    <div class="book-card" data-category="non-fiction">
+                        <div class="book-image-container">
+                            <img src="images/book7.png" alt="Cover of Atomic Habits by James Clear" loading="lazy">
+                            <span class="badge badge-discount">23% OFF</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                15-Min Delivery
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 320 pgs</div>
+                            <h3>Atomic Habits</h3>
+                            <p class="author">By <span>James Clear</span></p>
+                            <div class="rating" aria-label="Rating 4.9 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.9</span>
+                                <span class="rating-count">(12.4k reviews)</span>
+                            </div>
+                            <p class="description">An easy and proven way to build good habits, break bad ones, and
+                                achieve extraordinary results.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$16.99</span>
+                                    <span class="original-price">$21.99</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 2 -->
+                    <div class="book-card" data-category="fiction">
+                        <div class="book-image-container">
+                            <img src="images/book8.png" alt="Cover of Dune by Frank Herbert" loading="lazy">
+                            <span class="badge">Bestseller</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                Express Shipping
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Paperback • 688 pgs</div>
+                            <h3>Dune</h3>
+                            <p class="author">By <span>Frank Herbert</span></p>
+                            <div class="rating" aria-label="Rating 4.8 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.8</span>
+                                <span class="rating-count">(9.8k reviews)</span>
+                            </div>
+                            <p class="description">Set on the desert planet Arrakis, Dune is the grand epic masterpiece
+                                of politics, religion, and adventure.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$18.50</span>
+                                    <span class="original-price">$24.00</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 3 -->
+                    <div class="book-card" data-category="history">
+                        <div class="book-image-container">
+                            <img src="images/book9.png" alt="Cover of Sapiens by Yuval Noah Harari" loading="lazy">
+                            <span class="badge badge-discount">21% OFF</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                15-Min Delivery
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 464 pgs</div>
+                            <h3>Sapiens</h3>
+                            <p class="author">By <span>Yuval Noah Harari</span></p>
+                            <div class="rating" aria-label="Rating 4.9 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.9</span>
+                                <span class="rating-count">(15.1k reviews)</span>
+                            </div>
+                            <p class="description">A bold, provocative history of humankind that challenges everything
+                                we knew about our species.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$21.99</span>
+                                    <span class="original-price">$28.00</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 4 -->
+                    <div class="book-card" data-category="mystery">
+                        <div class="book-image-container">
+                            <img src="images/book10.png" alt="Cover of The Silent Patient by Alex Michaelides"
+                                loading="lazy">
+                            <span class="badge badge-popular">Popular</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                Express Shipping
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Paperback • 336 pgs</div>
+                            <h3>The Silent Patient</h3>
+                            <p class="author">By <span>Alex Michaelides</span></p>
+                            <div class="rating" aria-label="Rating 4.7 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.7</span>
+                                <span class="rating-count">(8.3k reviews)</span>
+                            </div>
+                            <p class="description">A shocking psychological thriller of a woman's act of violence
+                                against her husband, and the therapist obsessed with uncovering her motive.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$14.99</span>
+                                    <span class="original-price">$19.99</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 5 -->
+                    <div class="book-card" data-category="science">
+                        <div class="book-image-container">
+                            <img src="images/book11.png"
+                                alt="Cover of Astrophysics for People in a Hurry by Neil deGrasse Tyson" loading="lazy">
+                            <span class="badge badge-discount">24% OFF</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                15-Min Delivery
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 224 pgs</div>
+                            <h3>Astrophysics in a Hurry</h3>
+                            <p class="author">By <span>Neil deGrasse Tyson</span></p>
+                            <div class="rating" aria-label="Rating 4.8 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.8</span>
+                                <span class="rating-count">(7.1k reviews)</span>
+                            </div>
+                            <p class="description">The essential guide to the cosmos, black holes, quantum mechanics,
+                                and spacetime in quick, elegant chapters.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$12.99</span>
+                                    <span class="original-price">$16.99</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 6 -->
+                    <div class="book-card" data-category="biography">
+                        <div class="book-image-container">
+                            <img src="images/book12.png" alt="Cover of Steve Jobs by Walter Isaacson" loading="lazy">
+                            <span class="badge">Bestseller</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                Express Shipping
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 656 pgs</div>
+                            <h3>Steve Jobs</h3>
+                            <p class="author">By <span>Walter Isaacson</span></p>
+                            <div class="rating" aria-label="Rating 4.9 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.9</span>
+                                <span class="rating-count">(11.2k reviews)</span>
+                            </div>
+                            <p class="description">The exclusive biography of the creative entrepreneur whose passion
+                                for perfection revolutionized six industries.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$19.99</span>
+                                    <span class="original-price">$26.99</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 7 -->
+                    <div class="book-card" data-category="fiction">
+                        <div class="book-image-container">
+                            <img src="images/book1.png" alt="Cover of The Time Odyssey by Arthur C. Clarke"
+                                loading="lazy">
+                            <span class="badge badge-discount">20% OFF</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                15-Min Delivery
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 416 pgs</div>
+                            <h3>The Time Odyssey</h3>
+                            <p class="author">By <span>Arthur C. Clarke</span></p>
+                            <div class="rating" aria-label="Rating 4.8 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.8</span>
+                                <span class="rating-count">(4.2k reviews)</span>
+                            </div>
+                            <p class="description">A thrilling adventure that takes you on a journey through space-time
+                                anomalies and cosmic mystery.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$19.99</span>
+                                    <span class="original-price">$25.00</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 8 -->
+                    <div class="book-card" data-category="fiction">
+                        <div class="book-image-container">
+                            <img src="images/book2.png" alt="Cover of Echoes of Silence by Sarah J. Maas"
+                                loading="lazy">
+                            <span class="badge badge-popular">Popular</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                Express Shipping
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Paperback • 384 pgs</div>
+                            <h3>Echoes of Silence</h3>
+                            <p class="author">By <span>Sarah J. Maas</span></p>
+                            <div class="rating" aria-label="Rating 4.5 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.5</span>
+                                <span class="rating-count">(3.9k reviews)</span>
+                            </div>
+                            <p class="description">A heartwarming tale of love, destiny, and self-discovery amidst
+                                ancient secrets.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$14.99</span>
+                                    <span class="original-price">$18.99</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 9 -->
+                    <div class="book-card" data-category="science">
+                        <div class="book-image-container">
+                            <img src="images/book3.png" alt="Cover of The Mind Labyrinth by Oliver Sacks"
+                                loading="lazy">
+                            <span class="badge">Top Rated</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                15-Min Delivery
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 512 pgs</div>
+                            <h3>The Mind Labyrinth</h3>
+                            <p class="author">By <span>Oliver Sacks</span></p>
+                            <div class="rating" aria-label="Rating 4.9 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.9</span>
+                                <span class="rating-count">(6.7k reviews)</span>
+                            </div>
+                            <p class="description">An extraordinary exploration into the architecture of thought,
+                                memory, and cognitive perception.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$24.99</span>
+                                    <span class="original-price">$30.00</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 10 -->
+                    <div class="book-card" data-category="biography">
+                        <div class="book-image-container">
+                            <img src="images/book4.png" alt="Cover of Unbroken Horizon by Tara Westover" loading="lazy">
+                            <span class="badge badge-discount">27% OFF</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                Express Shipping
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Paperback • 352 pgs</div>
+                            <h3>Unbroken Horizon</h3>
+                            <p class="author">By <span>Tara Westover</span></p>
+                            <div class="rating" aria-label="Rating 4.7 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.7</span>
+                                <span class="rating-count">(5.4k reviews)</span>
+                            </div>
+                            <p class="description">A unforgettable memoir of resilience, education, and forging one's
+                                path against insurmountable odds.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$15.99</span>
+                                    <span class="original-price">$22.00</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 11 -->
+                    <div class="book-card" data-category="mystery">
+                        <div class="book-image-container">
+                            <img src="images/book5.png" alt="Cover of Shadows in the Fog by Gillian Flynn"
+                                loading="lazy">
+                            <span class="badge badge-popular">Popular</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                15-Min Delivery
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 432 pgs</div>
+                            <h3>Shadows in the Fog</h3>
+                            <p class="author">By <span>Gillian Flynn</span></p>
+                            <div class="rating" aria-label="Rating 4.7 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.7</span>
+                                <span class="rating-count">(7.8k reviews)</span>
+                            </div>
+                            <p class="description">A dark, spine-chilling mystery thriller revolving around a small
+                                town's buried secrets.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$17.99</span>
+                                    <span class="original-price">$23.99</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Card 12 -->
+                    <div class="book-card" data-category="history">
+                        <div class="book-image-container">
+                            <img src="images/book6.png" alt="Cover of The Path Within by Marcus Aurelius"
+                                loading="lazy">
+                            <span class="badge">Classics</span>
+                            <div class="express-delivery-tag">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                                Express Shipping
+                            </div>
+                        </div>
+                        <div class="book-card-body">
+                            <div class="format-tag">Hardcover • 256 pgs</div>
+                            <h3>The Path Within</h3>
+                            <p class="author">By <span>Marcus Aurelius</span></p>
+                            <div class="rating" aria-label="Rating 4.6 out of 5 stars">
+                                <span class="stars-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </span>
+                                <span class="rating-value">4.6</span>
+                                <span class="rating-count">(9.1k reviews)</span>
+                            </div>
+                            <p class="description">Timeless Stoic wisdom, inner discipline, and practical philosophy for
+                                navigating life's challenges.</p>
+
+                            <div class="blinkit-price-bar">
+                                <div class="price-box">
+                                    <span class="current-price">$21.99</span>
+                                    <span class="original-price">$27.50</span>
+                                </div>
+                                <a href="#" class="btn-blinkit-add">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19" />
+                                        <line x1="5" y1="12" x2="19" y2="12" />
+                                    </svg>
+                                    ADD
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reading Statistics Bar Section -->
+        <section class="stats-bar">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number">50,000+</span>
+                        <span class="stat-label">Active Readers Worldwide</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">12,000+</span>
+                        <span class="stat-label">Curated Book Titles</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">99.4%</span>
+                        <span class="stat-label">On-Time Express Deliveries</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">4.9 / 5</span>
+                        <span class="stat-label">Average Reader Rating</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Authors Spotlight Section -->
+        <section class="authors" id="authors">
+            <div class="container">
+                <div class="section-header">
+                    <span class="kicker">LITERARY VOICES</span>
+                    <h2>Featured Authors Spotlight</h2>
+                    <p>Meet the visionary minds behind world-changing literature</p>
+                </div>
+                <div class="author-grid">
+                    <div class="author-card">
+                        <div class="author-avatar-badge">JC</div>
+                        <h3>James Clear</h3>
+                        <span class="author-genre">Behavioral Psychology</span>
+                        <p>Author of the multi-million copy global bestseller <em>Atomic Habits</em>, focusing on human
+                            decision-making and continuous improvement.</p>
+                        <a href="#featured" class="author-link">View Published Works &rarr;</a>
+                    </div>
+
+                    <div class="author-card">
+                        <div class="author-avatar-badge">YH</div>
+                        <h3>Yuval Noah Harari</h3>
+                        <span class="author-genre">Historian & Philosopher</span>
+                        <p>Renowned historian exploring macro-historical questions including the evolution of <em>Homo
+                                sapiens</em> and future technologies.</p>
+                        <a href="#featured" class="author-link">View Published Works &rarr;</a>
+                    </div>
+
+                    <div class="author-card">
+                        <div class="author-avatar-badge">WI</div>
+                        <h3>Walter Isaacson</h3>
+                        <span class="author-genre">Master Biographer</span>
+                        <p>Former CEO of the Aspen Institute and author of definitive biographies on Steve Jobs, Albert
+                            Einstein, and Leonardo da Vinci.</p>
+                        <a href="#featured" class="author-link">View Published Works &rarr;</a>
+                    </div>
+
+                    <div class="author-card">
+                        <div class="author-avatar-badge">GF</div>
+                        <h3>Gillian Flynn</h3>
+                        <span class="author-genre">Mystery & Thriller</span>
+                        <p>Bestselling novelist celebrated for crafting gripping psychological suspense stories with
+                            unforgettable character dynamics.</p>
+                        <a href="#featured" class="author-link">View Published Works &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Details Table Section -->
+        <section class="book-table">
+            <div class="container">
+                <div class="section-header">
+                    <span class="kicker">SPECIFICATIONS</span>
+                    <h2>Book Specifications & Pricing</h2>
+                    <p>Compare formats, pages, prices, and reader ratings across our catalog</p>
+                </div>
+                <div class="table-wrapper">
+                    <table>
+                        <caption class="sr-only">Detailed list of books with title, author, format, price, and customer
+                            rating</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Book Title</th>
+                                <th scope="col">Author</th>
+                                <th scope="col">Format</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Atomic Habits</strong></td>
+                                <td>James Clear</td>
+                                <td>Hardcover (320p)</td>
+                                <td><span class="price-tag">$16.99</span> <del class="old-price">$21.99</del></td>
+                                <td><span class="rating-pill">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="currentColor">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        4.9
+                                    </span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Dune</strong></td>
+                                <td>Frank Herbert</td>
+                                <td>Paperback (688p)</td>
+                                <td><span class="price-tag">$18.50</span> <del class="old-price">$24.00</del></td>
+                                <td><span class="rating-pill">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="currentColor">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        4.8
+                                    </span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Sapiens: Brief History</strong></td>
+                                <td>Yuval Noah Harari</td>
+                                <td>Hardcover (464p)</td>
+                                <td><span class="price-tag">$21.99</span> <del class="old-price">$28.00</del></td>
+                                <td><span class="rating-pill">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="currentColor">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        4.9
+                                    </span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>The Silent Patient</strong></td>
+                                <td>Alex Michaelides</td>
+                                <td>Paperback (336p)</td>
+                                <td><span class="price-tag">$14.99</span> <del class="old-price">$19.99</del></td>
+                                <td><span class="rating-pill">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="currentColor">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        4.7
+                                    </span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Astrophysics in a Hurry</strong></td>
+                                <td>Neil deGrasse Tyson</td>
+                                <td>Hardcover (224p)</td>
+                                <td><span class="price-tag">$12.99</span> <del class="old-price">$16.99</del></td>
+                                <td><span class="rating-pill">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="currentColor">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        4.8
+                                    </span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Steve Jobs</strong></td>
+                                <td>Walter Isaacson</td>
+                                <td>Hardcover (656p)</td>
+                                <td><span class="price-tag">$19.99</span> <del class="old-price">$26.99</del></td>
+                                <td><span class="rating-pill">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                            viewBox="0 0 24 24" fill="currentColor">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </svg>
+                                        4.9
+                                    </span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <div class="section-header">
+                    <span class="kicker">TESTIMONIALS</span>
+                    <h2>Community Reader Reviews</h2>
+                    <p>Real feedback from passionate readers who expanded their horizons with BookNest</p>
+                </div>
+                <div class="review-list">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <span class="review-badge">Verified Buyer</span>
+                        </div>
+                        <p>"Reading Atomic Habits from BookNest fundamentally changed my daily routine. The ordering
+                            experience was as fast as ordering food on Blinkit!"</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">ER</div>
+                            <div>
+                                <h4>Elena Rostova</h4>
+                                <span class="reviewer-role">Product Designer & Reader</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <span class="review-badge">Verified Buyer</span>
+                        </div>
+                        <p>"The clean UI makes searching for books an absolute joy. Sapiens arrived in flawless
+                            hardcover condition. Hands down the best bookstore UI!"</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">DV</div>
+                            <div>
+                                <h4>David Vance</h4>
+                                <span class="reviewer-role">Software Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </div>
+                            <span class="review-badge">Verified Buyer</span>
+                        </div>
+                        <p>"Dune and The Silent Patient arrived in 15 minutes! The price comparison table helped me pick
+                            the right hardcover edition."</p>
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">SC</div>
+                            <div>
+                                <h4>Sophia Chen</h4>
+                                <span class="reviewer-role">Literature Enthusiast</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pure HTML5/CSS3 FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="kicker">HELP CENTER</span>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Find quick answers to common questions about our bookstore and express delivery</p>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item" open>
+                        <summary class="faq-question">
+                            <span>How fast is BookNest's express delivery service?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>We offer 15-minute express local delivery for select bestsellers in metro areas, and 1–2
+                                business day express shipping nationwide for all other hardcover and paperback titles.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            <span>Are all books original publisher editions?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Yes, 100%. We source directly from official authorized publishers. Every book is
+                                guaranteed 100% authentic with premium print quality and pristine condition.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            <span>What is BookNest's return and refund policy?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>We provide a 7-day hassle-free return and exchange policy. If your book arrives damaged
+                                or misprinted, simply submit a request and we will dispatch a replacement immediately.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            <span>How does pure CSS category filtering work?</span>
+                            <span class="faq-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Our category browser uses standard HTML radio inputs connected to CSS sibling selectors
+                                (`:checked ~ .book-grid`), allowing instantaneous filtering without requiring JavaScript
+                                scripts.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter & Reading Club Section -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-card">
+                    <div class="newsletter-content">
+                        <span class="newsletter-badge">JOIN THE READERS CLUB</span>
+                        <h2>Get 15% Off Your First Book Order</h2>
+                        <p>Subscribe to our weekly newsletter for curated reading lists, exclusive author interviews,
+                            and secret discount codes.</p>
+                    </div>
+                    <form action="#" method="post" class="newsletter-form">
+                        <div class="newsletter-input-group">
+                            <input type="email" name="newsletter_email" placeholder="Enter your email address..."
+                                required autocomplete="email">
+                            <button type="submit" class="btn">Subscribe & Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="section-header">
+                        <span class="kicker">GET IN TOUCH</span>
+                        <h2>Contact Support</h2>
+                        <p>Have a book request or need help with express delivery? Get in touch!</p>
+                    </div>
+                    <form action="#" method="post" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input id="name" type="text" name="name" placeholder="e.g. Alex Morgan" required
+                                autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" name="email" placeholder="e.g. alex@example.com" required
+                                autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Which book are you looking for?" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" />
+                            </svg>
+                        </span>
+                        <h3>BookNest</h3>
+                    </div>
+                    <p>Your premier online bookstore delivering inspiring literature with speed, quality, and care.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#featured">Featured Books</a></li>
+                        <li><a href="#authors">Authors Spotlight</a></li>
+                        <li><a href="#faq">Help & FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="Twitter">Twitter</a>
+                        <a href="#" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 BookNest. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
